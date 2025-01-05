@@ -5,12 +5,11 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
-import Error from './pages/Error';
 
 function App() {
   return (
     <>
-      <div>
+      <div className='app'>
           <Layout />
           <Home />
           <About />

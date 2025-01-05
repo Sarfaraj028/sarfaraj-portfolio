@@ -1,0 +1,15 @@
+.home{
+    width: 100%;
+    background: rgb(0, 29, 20);
+    padding: 2rem 8%;
+    color: white;
+    font-size: 14px;
+}
+
+
+  /* Mobile view */
+  @media screen and (max-width: 768px) {
+    .home{
+        padding: 2rem 4%;
+    }
+  }
