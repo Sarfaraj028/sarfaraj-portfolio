@@ -8,3 +8,16 @@
         padding: 2rem 4%;
     }
 }
+
+
+a .child{
+    position: absolute;
+    transition: .3s ease-out;
+}
+
+a:hover .child{
+    box-shadow: 0 0 100px 100px green;
+    background: green;
+    bottom: 5%;
+    left: 4%
+}

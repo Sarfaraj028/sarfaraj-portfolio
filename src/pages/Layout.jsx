@@ -41,7 +41,10 @@ const Layout = () => {
                 <Link to="services" smooth={true} duration={500} offset={-70}>Services </Link>
               </li>
               <li>
-                <Link to="services" smooth={true} duration={500} offset={-70}>Contact </Link>
+                <Link to="projects" smooth={true} duration={500} offset={-70}>Latest Design </Link>
+              </li>
+              <li>
+                <Link to="contact" smooth={true} duration={500} offset={-70}>Contact </Link>
               </li>
             </ul>
           </div>

@@ -28,10 +28,7 @@ function Services() {
       <h2 className='text-center underline text-4xl font-bold mb-10'>Exclusive <span className='text-4xl text-green-400 underline px-2'> Services!</span> </h2>
       
       {/* grid start from here  */}
-      <div className=' grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-5 '>
-        {/* <GridItem icon="bx bx-code-alt " title1="Web" title2="Development"  />
-        <GridItem icon="bx bx-cog bx bx-code-alt" title1="Web" title2="Maintenance"/>
-        <GridItem icon="bx bx-paint" title1="Graphic" title2="Design" /> */}
+      <div className=' grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-5 mb-6 '>
         {gridItem.map( (item)=> (
           <GridItem key={uuidv4()} icon={item.icon} title1={item.title1} title2={item.title2}  />
       ))}
