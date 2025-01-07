@@ -1,0 +1,10 @@
+.projects{
+    background: rgb(0, 29, 20);
+    padding: 2rem 8%;
+}
+
+@media screen and (max-width: 768px) {
+    .projects{
+        padding: 2rem 4%;
+    }
+}
